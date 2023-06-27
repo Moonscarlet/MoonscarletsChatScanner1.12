@@ -276,7 +276,7 @@ chatFrameScanner:SetScript("OnEvent", function(self, ...)
 			
 			msg= "|cAAFF0000FOUND(|r|cff92ff58"..string.upper(v).."|r|cffFF0000): |r|cff5892ff\n["..string.upper(chanName).."]|r "..playerLink.."|cff5892ff: "..message.."|r"
 			print(msg)
-			PlaySoundFile("Interface\\AddOns\\ChatScanner\\CatDeath.ogg")
+			PlaySoundFile("Interface\\AddOns\\MoonscarletsChatScanner\\CatDeath.ogg")
 			return
 			-- end
 		end
